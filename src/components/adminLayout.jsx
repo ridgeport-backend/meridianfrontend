@@ -62,7 +62,7 @@ export default function AdminLayout() {
           <p className="text-xs text-steel">Signed in as</p>
           <p className="text-sm">{user.name}</p>
           <button onClick={logout} className="mt-2 text-xs text-steel underline underline-offset-2 hover:text-ink dark:hover:text-paper">
-            Sign out
+            Sign out 
           </button>
         </div>
       </aside>
